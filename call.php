@@ -3,7 +3,7 @@
 //error_reporting(0);
 
 
-$url = "http://dataservice.accuweather.com/currentconditions/v1/191557?apikey=C3vjXNPCzUZB0pNYFdq67ZKmRhsO81It&details=true";
+$url = "url for your api";
 $res = file_get_contents($url);
 
 //print $res;
